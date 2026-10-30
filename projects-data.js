@@ -109,7 +109,7 @@ const ARRIS_PROJECTS = {
     storyImage: 'images/DPS Hazaribaug/_U2A2008.jpg',
     description: "DPS Hazaribaug presents a strong architectural presence defined by its rhythmic facade and bold vertical frames. The building overlooks a generous sports ground, creating a clear visual connection between the academic spaces and the active campus landscape. Its formal geometry and restrained material palette lend the campus a sense of timelessness, authority, and institutional character.",
     specs: {
-      location: 'Hazaribaug, Jharkhand',
+      location: 'Hazaribaug',
       scope: 'Architecture, School, Interiors',
       siteArea: '1,16,975 sq.ft',
       status: 'Completed',
@@ -153,7 +153,7 @@ const ARRIS_PROJECTS = {
     location: 'Aldona, Goa',
     year: 'ongoing',
     heroImage: 'images/Aldona Villa/1_8.jpg',
-    storyImage: 'images/Aldona Villa/4_5.jpg',
+    storyImage: 'images/Aldona Villa/10 FINAL_2.jpg',
     description: "The villa, designed for a nuclear urban family, offers a serene escape in Aldona, a picturesque village along the Mapusa river, renowned for its tranquility and lush landscapes. The design harmonizes with the natural environment, minimizing impact on the site while embracing the site's natural contours. A central concept of fluidity and continuity guides the layout, where spaces flow seamlessly, eliminating corners and walls to encourage movement and interaction. Open courtyards and green pockets foster a connection between the indoors and nature, enhancing the overall aesthetic while creating a nurturing, communal atmosphere.",
     specs: {
       location: 'Aldona, Goa',
@@ -203,8 +203,8 @@ const ARRIS_PROJECTS = {
     storyImage: 'images/Times Tower New/E_PHX2667_LR.jpg',
     description: "Times Tower New is a contemporary commercial office interior designed to create a refined and dynamic workplace environment. The design brings together warm wood finishes, glass partitions, textured surfaces and integrated lighting to balance a formal corporate character with comfortable collaborative spaces. Carefully curated furniture, artwork, and colour accents add warmth and identity across the boardrooms, lounges, reception and meeting areas. The result is a cohesive workplace that combines functionality and sophistication.",
     specs: {
-      location: 'Mumbai, Maharashtra',
-      scope: 'Commercial Architecture, Workspace Interiors',
+      location: 'Mumbai',
+      scope: 'Commercial, Interiors',
       siteArea: '9800 sq.ft',
       status: 'Completed',
     },
@@ -250,8 +250,8 @@ const ARRIS_PROJECTS = {
     storyImage: 'images/Devgn Cinex Ahmedabad/02.jpg',
     description: "Named after actor Ajay Devgn, the owner, this cinema is one of the most premium and luxurious properties of the 'Devgn Cinema' chain with state-of-the-art features and amenities for Ahmedabad's movie-goers to enjoy. This multiplex is filled with comfort, luxury, and a homely feeling all of which is enveloped by filmy, 'Bollywood'-inspired interiors.",
     specs: {
-      location: 'Ahmedabad, Gujarat',
-      scope: 'Multiplex Architecture, Cinema Interiors, F&B',
+      location: 'Ahmedabad',
+      scope: 'Cinema, Interiors',
       siteArea: '4 screens, 719 seats',
       status: 'Completed',
     },
@@ -297,7 +297,7 @@ const ARRIS_PROJECTS = {
     storyImage: 'images/IB Suncity/Suncity School-13.jpg',
     description: "Instead of a traditional classroom structure, coming from an industrial way of thinking about schools, the space was organized so as to have a positive impact on how you behave, move around and learn. A learning journey is thus created, from early years to high school, utilizing the IB resources and supporting the school's vision for team-teaching, flexible learning groups and individualized timetables. Ample space around each student also complies with the IB rules unlike shared desk seating.",
     specs: {
-      location: 'Gurugram, Haryana',
+      location: 'Gurugram',
       scope: 'Architecture, School, Interiors',
       siteArea: '15,500 sq.ft',
       status: 'Completed',
@@ -345,7 +345,7 @@ const ARRIS_PROJECTS = {
     storyImage: 'images/AHS Hazaribaug/DSC06574.JPG',
     description: "The design for this school is based off the 7 senses supporting a child's sensory development leading to an inter and intra-personal growth. The solid standing entrance frames are set against subdued curved forms in the landscape. The intermingling of the 3 solid frames carves out a combination of indoor and outdoor spaces in between them. These symbolize the journey of a child amidst the education system, eventually coming out as an extremely evolved version of themselves.",
     specs: {
-      location: 'Hazaribaug, Jharkhand',
+      location: 'Hazaribaug',
       scope: 'Architecture, School, Interiors',
       siteArea: '1,80,000 sq.ft',
       status: 'Ongoing',
@@ -360,7 +360,7 @@ const ARRIS_PROJECTS = {
         "alt": "AHS Hazaribaug Main Academic Block"
       },
       {
-        "url": "images/AHS Hazaribaug/DSC06591.JPG",
+        "url": "images/AHS Hazaribaug/DSC06712.JPG",
         "alt": "AHS Hazaribaug Academic Building"
       },
       {
@@ -372,7 +372,7 @@ const ARRIS_PROJECTS = {
         "alt": "AHS Hazaribaug Campus Pathway"
       },
       {
-        "url": "images/AHS Hazaribaug/DSC06712.JPG",
+        "url": "images/AHS Hazaribaug/DSC06591.JPG",
         "alt": "AHS Hazaribaug Institutional Facade"
       }
     ],
@@ -392,8 +392,8 @@ const ARRIS_PROJECTS = {
     storyImage: 'images/LA Trichy/2.jpg',
     description: "The interior design represents flow through both physical forms and movements through the space. The seamless transition between the ancillary spaces and theatres is brought to life through meticulously designed curves, versatile use of marble and contrasting materials for a dynamic visual effect.",
     specs: {
-      location: 'Tiruchirappalli, Tamil Nadu',
-      scope: 'Multiplex Architecture, Premium Lounges',
+      location: 'Trichy',
+      scope: 'Cinema, Interiors',
       siteArea: '6 screens, 1530 seats',
       status: 'Completed',
     },
@@ -446,7 +446,7 @@ const ARRIS_PROJECTS = {
     },
     gallery: [
       {
-        "url": "images/Bottle house/2.jpg",
+        "url": "images/Bottle house/1.jpg",
         "alt": "Bottle House Iconic Facade"
       },
       {
@@ -486,7 +486,7 @@ const ARRIS_PROJECTS = {
     storyImage: 'images/Hazaribaug Bungalow/FORMAL LIVING ROOM.jpg',
     description: "Rooted in the serene landscape of Hazaribagh, this residence is envisioned as a contemporary sanctuary that seamlessly blends modern architecture with the tranquility of nature. Defined by clean geometric forms, expansive glazing and a warm palette of natural materials, the design creates a dialogue between indoor and outdoor living. Thoughtfully curated interiors, landscaped courtyards and intimate gathering spaces bring together understated luxury and everyday comfort. The result is a home that celebrates the art of refined living.",
     specs: {
-      location: 'Hazaribaug, Jharkhand',
+      location: 'Hazaribaug',
       scope: 'Architecture, Residential, Interiors',
       siteArea: '32,720 sq.ft',
       status: 'Ongoing',
@@ -533,8 +533,8 @@ const ARRIS_PROJECTS = {
     storyImage: 'images/Devgn Cinex Elan/03.jpg',
     description: "This cinema experience is a delightful fusion of luxury and community connection which embraces the drama and grandeur of storytelling. The narrative here balances the cutting-edge modernity of a global metropolis and the deep cultural threads that tie it back to India's cinematic tradition.",
     specs: {
-      location: 'Gurugram, Haryana',
-      scope: 'Multiplex Interiors, VIP Lounges, Acoustics',
+      location: 'Gurugram',
+      scope: 'Cinema, Interiors',
       siteArea: '5 screens, 889 seats',
       status: 'Completed',
     },
@@ -580,7 +580,7 @@ const ARRIS_PROJECTS = {
     storyImage: 'images/Rajhans Precia/KZP00127.jpg',
     description: "Conceived as a landmark entertainment destination, this 14-screen multiplex brings together contemporary architecture and state-of-the-art amenities to redefine the cinematic experience in Surat. The design strikes a balance between bold architectural expression and refined interiors, creating a seamless journey from arrival to the big screen. Reflecting Surat's evolution into a thriving urban and commercial hub, the project embodies the city's growing appetite for world-class leisure and lifestyle destinations.",
     specs: {
-      location: 'Surat, Gujarat',
+      location: 'Surat',
       scope: 'Architecture, Commercial, Cinema, Interiors',
       siteArea: '3,00,000 sq.ft',
       status: 'Completed',
@@ -627,8 +627,8 @@ const ARRIS_PROJECTS = {
     storyImage: 'images/architecture/Rectangle 68.png',
     description: "An expressive corporate complex featuring clean geometries, deep solar shading louvers, and expansive collaborative workspaces designed to optimize natural daylight throughout the day.",
     specs: {
-      location: 'Raipur, Chhattisgarh',
-      scope: 'Architecture, Workspace Design',
+      location: 'Raipur',
+      scope: 'Architecture, Residential, Interiors',
       siteArea: '65,000 sq.ft',
       status: 'Completed',
     },

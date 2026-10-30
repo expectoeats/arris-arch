@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
@@ -274,6 +274,76 @@
     }
     textarea.form-field:focus {
       border-color: #000;
+    }
+
+    /* Custom Dropdown Styling */
+    .custom-dropdown {
+      position: relative;
+      width: 100%;
+    }
+    .custom-dropdown-trigger {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+      padding: 4px 0 10px 0;
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: 23px;
+      color: #000;
+      transition: border-color 0.25s ease;
+    }
+    @media (min-width: 640px) {
+      .custom-dropdown-trigger {
+        font-size: 24px;
+        padding: 5px 0 11px 0;
+      }
+    }
+    @media (min-width: 1024px) {
+      .custom-dropdown-trigger {
+        font-size: 25px;
+        padding: 6px 0 12px 0;
+      }
+    }
+    .custom-dropdown-trigger i {
+      width: 16px;
+      height: 16px;
+      transition: transform 0.3s ease;
+      opacity: 0.7;
+    }
+    .custom-dropdown.active .custom-dropdown-trigger i {
+      transform: rotate(180deg);
+    }
+    .custom-dropdown-menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background: #ffffff;
+      border: 1px solid #000000;
+      z-index: 100;
+      display: none;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      margin-top: -1px;
+    }
+    .custom-dropdown-menu.show {
+      display: block;
+    }
+    .custom-dropdown-option {
+      padding: 12px 16px;
+      cursor: pointer;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 15px;
+      color: #000;
+      transition: background 0.2s ease;
+      letter-spacing: 0.02em;
+    }
+    .custom-dropdown-option:hover {
+      background: #F4F0EB;
+    }
+    .custom-dropdown-option.selected {
+      background: #EAE5DD;
+      font-weight: 500;
     }
   </style>
 </head>
@@ -717,7 +787,7 @@
     <div class="max-w-[1920px] mx-auto">
 
       <!-- Responsive Grid: Mobile stacks Heading -> Form -> Living Room Image; Desktop places Image under Heading -->
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-y-0 lg:gap-x-16 xl:gap-x-24 items-start">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-y-0 lg:gap-x-16 xl:gap-x-24 items-stretch">
 
         <!-- 1. Heading: Mobile Order 1, Desktop Col 1 Row 1 -->
         <div class="order-1 lg:col-start-1 lg:row-start-1 lg:mb-8" data-reveal-text>
@@ -744,11 +814,11 @@
         </div>
 
         <!-- 3. Form: Mobile Order 3, Desktop Col 2 Row 2 -->
-        <div class="order-3 lg:col-start-2 lg:row-start-2 w-full mb-12 sm:mb-16 lg:mb-0">
-          <div class="max-w-[640px] xl:max-w-[850px] w-full mx-auto lg:mx-0">
+        <div class="order-3 lg:col-start-2 lg:row-start-2 w-full mb-12 sm:mb-16 lg:mb-0 h-full">
+          <div class="max-w-[640px] xl:max-w-[850px] w-full mx-auto lg:mx-0 h-full">
             <form
               id="contact-form"
-              class=""
+              class="h-full flex flex-col"
               onsubmit="event.preventDefault(); submitContactForm();"
               data-reveal-text
               data-delay="2"
@@ -782,23 +852,31 @@
               <div class="form-row">
                 <label class="form-row-label">TYPE</label>
                 <div class="form-row-fields">
-                  <div>
-                    <select name="enquiryType" class="form-field" required>
-                      <option value="" disabled selected hidden>Project Enquiry</option>
-                      <option value="project-enquiry">Project Enquiry</option>
-                      <option value="collaboration">Collaboration</option>
-                      <option value="internship">Internship / Careers</option>
-                      <option value="press-media">Press &amp; Media</option>
-                      <option value="other">Other</option>
-                    </select>
+                  <div class="custom-dropdown" id="dropdown-enquiry">
+                    <div class="custom-dropdown-trigger">
+                      <span class="selected-text">Project Enquiry</span>
+                      <i data-lucide="chevron-down"></i>
+                    </div>
+                    <div class="custom-dropdown-menu">
+                      <div class="custom-dropdown-option" data-value="project-enquiry">Project Enquiry</div>
+                      <div class="custom-dropdown-option" data-value="collaboration">Collaboration</div>
+                      <div class="custom-dropdown-option" data-value="internship">Internship / Careers</div>
+                      <div class="custom-dropdown-option" data-value="press-media">Press &amp; Media</div>
+                      <div class="custom-dropdown-option" data-value="other">Other</div>
+                    </div>
+                    <input type="hidden" name="enquiryType" value="project-enquiry" required>
                   </div>
-                  <div>
-                    <select name="studio" class="form-field">
-                      <option value="" disabled selected hidden>Select Studio</option>
-                      <option value="mumbai-studio">Mumbai Studio</option>
-                      <option value="thane-studio">Thane Studio</option>
-                      <option value="international">International Office</option>
-                    </select>
+                  <div class="custom-dropdown" id="dropdown-studio">
+                    <div class="custom-dropdown-trigger">
+                      <span class="selected-text">Select Studio</span>
+                      <i data-lucide="chevron-down"></i>
+                    </div>
+                    <div class="custom-dropdown-menu">
+                      <div class="custom-dropdown-option" data-value="mumbai-studio">Mumbai Studio</div>
+                      <div class="custom-dropdown-option" data-value="thane-studio">Thane Studio</div>
+                      <div class="custom-dropdown-option" data-value="international">International Office</div>
+                    </div>
+                    <input type="hidden" name="studio" value="">
                   </div>
                 </div>
               </div>
@@ -840,7 +918,7 @@
               </div>
 
               <!-- Submit Button -->
-              <div class="pt-2 sm:pt-4">
+              <div class="mt-auto pt-8 sm:pt-10">
                 <button
                   type="submit"
                   id="submit-btn"
@@ -863,12 +941,12 @@
         </div>
 
         <!-- 4. Living Room Image: Mobile Order 4, Desktop Col 1 Row 2 -->
-        <div class="order-4 lg:col-start-1 lg:row-start-2 w-full" data-reveal-animation>
-          <div class="w-full overflow-hidden rounded-[8px] sm:rounded-[10px] max-w-[640px] xl:max-w-[760px] mx-auto lg:mx-0 shadow-sm">
+        <div class="order-4 lg:col-start-1 lg:row-start-2 w-full h-full" data-reveal-animation>
+          <div class="w-full h-full overflow-hidden rounded-[8px] sm:rounded-[10px] max-w-[640px] xl:max-w-[760px] mx-auto lg:mx-0 shadow-sm">
             <img
               src="images/contact/Rectangle 76.png"
               alt="Modern Living Room with Exposed Ceiling Beams and Chandelier"
-              class="w-full h-auto object-cover block rounded-[8px] sm:rounded-[10px]"
+              class="w-full h-full object-cover block rounded-[8px] sm:rounded-[10px]"
             />
           </div>
         </div>
@@ -1082,6 +1160,58 @@
   <!-- Initialize Lucide Icons -->
   <script>
     lucide.createIcons();
+
+    // Custom Dropdown Logic
+    function initCustomDropdowns() {
+      const dropdowns = document.querySelectorAll('.custom-dropdown');
+      
+      dropdowns.forEach(dropdown => {
+        const trigger = dropdown.querySelector('.custom-dropdown-trigger');
+        const menu = dropdown.querySelector('.custom-dropdown-menu');
+        const options = dropdown.querySelectorAll('.custom-dropdown-option');
+        const hiddenInput = dropdown.querySelector('input[type="hidden"]');
+        const selectedText = dropdown.querySelector('.selected-text');
+        
+        trigger.addEventListener('click', (e) => {
+          e.stopPropagation();
+          // Close other dropdowns
+          dropdowns.forEach(d => {
+            if (d !== dropdown) {
+              d.querySelector('.custom-dropdown-menu').classList.remove('show');
+              d.classList.remove('active');
+            }
+          });
+          menu.classList.toggle('show');
+          dropdown.classList.toggle('active');
+        });
+        
+        options.forEach(option => {
+          option.addEventListener('click', () => {
+            const value = option.getAttribute('data-value');
+            const text = option.textContent;
+            
+            selectedText.textContent = text;
+            hiddenInput.value = value;
+            
+            options.forEach(opt => opt.classList.remove('selected'));
+            option.classList.add('selected');
+            
+            menu.classList.remove('show');
+            dropdown.classList.remove('active');
+          });
+        });
+      });
+      
+      // Close dropdowns when clicking outside
+      document.addEventListener('click', () => {
+        dropdowns.forEach(d => {
+          d.querySelector('.custom-dropdown-menu').classList.remove('show');
+          d.classList.remove('active');
+        });
+      });
+    }
+
+    initCustomDropdowns();
 
     // Submit handler
     function submitContactForm() {
