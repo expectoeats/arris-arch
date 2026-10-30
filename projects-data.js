@@ -1,4 +1,4 @@
-/**
+﻿/**
  * ARRIS ARCHITECTS - Centralized Projects Database
  * Supports dynamic rendering on project-detail.html
  */
@@ -58,8 +58,8 @@ const ARRIS_PROJECTS = {
     category: 'Commercial',
     location: 'Surat',
     year: '2026',
-    heroImage: 'images/Rajhans Skylar commercial/Cam_01.jpg',
-    storyImage: 'images/Rajhans Skylar commercial/Interior_Atrium_Cam13.jpg',
+    heroImage: 'images/Rajhans Skylar Commercial/Cam_01.jpg',
+    storyImage: 'images/Rajhans Skylar Commercial/Interior_Atrium_Cam13.jpg',
     description: "This project brings together contemporary interior spaces with a thoughtfully designed landscape that complements the overall built environment. Our scope focused on the atrium, lobby spaces, gym, café and other key interior areas, creating cohesive and inviting spaces through considered materials and detailing. The landscape integrates lush planting with carefully placed sculptural elements that soften the effect of the built form, creating a more welcoming and engaging experience around the building. Together, the interiors and landscape create a refined environment that balances functionality, visual identity and a sense of openness.",
     specs: {
       location: 'Surat',
@@ -69,32 +69,32 @@ const ARRIS_PROJECTS = {
     },
     gallery: [
       {
-        "url": "images/Rajhans Skylar commercial/Cam_01.jpg",
+        "url": "images/Rajhans Skylar Commercial/Cam_01.jpg",
         "alt": "Rajhans Skylar Iconic Elevation"
       },
       {
-        "url": "images/Rajhans Skylar commercial/Interior_Atrium_Cam13.jpg",
+        "url": "images/Rajhans Skylar Commercial/Interior_Atrium_Cam13.jpg",
         "alt": "Rajhans Skylar Central Atrium"
       },
       {
-        "url": "images/Rajhans Skylar commercial/Interior_Reception_Cam04.jpg",
+        "url": "images/Rajhans Skylar Commercial/Interior_Reception_Cam04.jpg",
         "alt": "Rajhans Skylar Grand Reception Lobby"
       },
       {
-        "url": "images/Rajhans Skylar commercial/Cam_03.jpg",
+        "url": "images/Rajhans Skylar Commercial/Cam_03.jpg",
         "alt": "Rajhans Skylar Landscaped Commercial Promenade"
       },
       {
-        "url": "images/Rajhans Skylar commercial/Cam_04.jpg",
+        "url": "images/Rajhans Skylar Commercial/Cam_04.jpg",
         "alt": "Rajhans Skylar Modern Facade"
       },
       {
-        "url": "images/Rajhans Skylar commercial/Cam_05.jpg",
+        "url": "images/Rajhans Skylar Commercial/Cam_05.jpg",
         "alt": "Rajhans Skylar Architectural Detail"
       }
     ],
     related: ['times-tower-new', 'rajhans-precia', 'ib-suncity'],
-    cardImage: 'images/Rajhans Skylar commercial/Cam_01.jpg'
+    cardImage: 'images/Rajhans Skylar Commercial/Cam_01.jpg'
   },
 
   // 3. DPS Hazaribaug (Schools, Hazaribaug)
@@ -199,8 +199,8 @@ const ARRIS_PROJECTS = {
     category: 'Commercial',
     location: 'Mumbai',
     year: '2019',
-    heroImage: 'images/Times tower new/E_PHX2662_LR.jpg',
-    storyImage: 'images/Times tower new/E_PHX2667_LR.jpg',
+    heroImage: 'images/Times Tower New/E_PHX2662_LR.jpg',
+    storyImage: 'images/Times Tower New/E_PHX2667_LR.jpg',
     description: "Times Tower New is a contemporary commercial office interior designed to create a refined and dynamic workplace environment. The design brings together warm wood finishes, glass partitions, textured surfaces and integrated lighting to balance a formal corporate character with comfortable collaborative spaces. Carefully curated furniture, artwork, and colour accents add warmth and identity across the boardrooms, lounges, reception and meeting areas. The result is a cohesive workplace that combines functionality and sophistication.",
     specs: {
       location: 'Mumbai, Maharashtra',
@@ -210,32 +210,32 @@ const ARRIS_PROJECTS = {
     },
     gallery: [
       {
-        "url": "images/Times tower new/E_PHX2574_LR.jpg",
+        "url": "images/Times Tower New/E_PHX2574_LR.jpg",
         "alt": "Times Tower New Executive Boardroom"
       },
       {
-        "url": "images/Times tower new/E_PHX2740_LR.jpg",
+        "url": "images/Times Tower New/E_PHX2740_LR.jpg",
         "alt": "Times Tower New Open Lounge with Copper Ductwork"
       },
       {
-        "url": "images/Times tower new/E_PHX2712_LR.jpg",
+        "url": "images/Times Tower New/E_PHX2712_LR.jpg",
         "alt": "Times Tower New Executive Cabin"
       },
       {
-        "url": "images/Times tower new/E_PHX2729_LR.jpg",
+        "url": "images/Times Tower New/E_PHX2729_LR.jpg",
         "alt": "Times Tower New Director's Lounge"
       },
       {
-        "url": "images/Times tower new/E_PHX2662_LR.jpg",
+        "url": "images/Times Tower New/E_PHX2662_LR.jpg",
         "alt": "Times Tower New Corporate Office"
       },
       {
-        "url": "images/Times tower new/E_PHX2667_LR.jpg",
+        "url": "images/Times Tower New/E_PHX2667_LR.jpg",
         "alt": "Times Tower New Modern Workspace"
       }
     ],
     related: ['rajhans-skylar', 'rajhans-precia', 'devgn-cinex-bellona'],
-    cardImage: 'images/Times tower new/E_PHX2662_LR.jpg'
+    cardImage: 'images/Times Tower New/E_PHX2662_LR.jpg'
   },
 
   // 6. Devgn Cinex Ahmedabad (Cinemas, Ahmedabad)
@@ -576,8 +576,8 @@ const ARRIS_PROJECTS = {
     category: 'Commercial',
     location: 'Surat',
     year: '2024',
-    heroImage: 'images/Rajhans precia/DJI_20250120213924_0431_D.jpg',
-    storyImage: 'images/Rajhans precia/KZP00127.jpg',
+    heroImage: 'images/Rajhans Precia/DJI_20250120213924_0431_D.jpg',
+    storyImage: 'images/Rajhans Precia/KZP00127.jpg',
     description: "Conceived as a landmark entertainment destination, this 14-screen multiplex brings together contemporary architecture and state-of-the-art amenities to redefine the cinematic experience in Surat. The design strikes a balance between bold architectural expression and refined interiors, creating a seamless journey from arrival to the big screen. Reflecting Surat's evolution into a thriving urban and commercial hub, the project embodies the city's growing appetite for world-class leisure and lifestyle destinations.",
     specs: {
       location: 'Surat, Gujarat',
@@ -587,32 +587,32 @@ const ARRIS_PROJECTS = {
     },
     gallery: [
       {
-        "url": "images/Rajhans precia/DJI_20250120213924_0431_D.jpg",
+        "url": "images/Rajhans Precia/DJI_20250120213924_0431_D.jpg",
         "alt": "Rajhans Precia Aerial Night View"
       },
       {
-        "url": "images/Rajhans precia/KZP00127.jpg",
+        "url": "images/Rajhans Precia/KZP00127.jpg",
         "alt": "Rajhans Precia Concession Lounge"
       },
       {
-        "url": "images/Rajhans precia/KZP00285.jpg",
+        "url": "images/Rajhans Precia/KZP00285.jpg",
         "alt": "Rajhans Precia Cinema Lobby Architecture"
       },
       {
-        "url": "images/Rajhans precia/KZP00350.jpg",
+        "url": "images/Rajhans Precia/KZP00350.jpg",
         "alt": "Rajhans Precia Atrium Promenade"
       },
       {
-        "url": "images/Rajhans precia/KZP00183.jpg",
+        "url": "images/Rajhans Precia/KZP00183.jpg",
         "alt": "Rajhans Precia Modern Interiors"
       },
       {
-        "url": "images/Rajhans precia/KZP00451.jpg",
+        "url": "images/Rajhans Precia/KZP00451.jpg",
         "alt": "Rajhans Precia Premium Retail"
       }
     ],
     related: ['rajhans-skylar', 'times-tower-new', 'devgn-cinex-bellona'],
-    cardImage: 'images/Rajhans precia/DJI_20250120213924_0431_D.jpg'
+    cardImage: 'images/Rajhans Precia/DJI_20250120213924_0431_D.jpg'
   },
 
   // Safety fallbacks for additional cards from expertise pages:
