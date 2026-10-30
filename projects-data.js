@@ -343,7 +343,7 @@ const ARRIS_PROJECTS = {
     year: 'ongoing',
     heroImage: 'images/AHS Hazaribaug/DSC06724.JPG.jpg',
     heroPosition: 'top',
-    storyImage: 'images/AHS Hazaribaug/DSC06574.JPG',
+    storyImage: 'images/AHS Hazaribaug/DSC06574.jpg',
     description: "The design for this school is based off the 7 senses supporting a child's sensory development leading to an inter and intra-personal growth. The solid standing entrance frames are set against subdued curved forms in the landscape. The intermingling of the 3 solid frames carves out a combination of indoor and outdoor spaces in between them. These symbolize the journey of a child amidst the education system, eventually coming out as an extremely evolved version of themselves.",
     specs: {
       location: 'Hazaribaug',
@@ -357,23 +357,23 @@ const ARRIS_PROJECTS = {
         "alt": "AHS Hazaribaug Campus Overview"
       },
       {
-        "url": "images/AHS Hazaribaug/DSC06574.JPG",
+        "url": "images/AHS Hazaribaug/DSC06574.jpg",
         "alt": "AHS Hazaribaug Main Academic Block"
       },
       {
-        "url": "images/AHS Hazaribaug/DSC06712.JPG",
+        "url": "images/AHS Hazaribaug/DSC06712.jpg",
         "alt": "AHS Hazaribaug Academic Building"
       },
       {
-        "url": "images/AHS Hazaribaug/DSC06622.JPG",
+        "url": "images/AHS Hazaribaug/DSC06622.jpg",
         "alt": "AHS Hazaribaug School Courtyard"
       },
       {
-        "url": "images/AHS Hazaribaug/DSC06691.JPG",
+        "url": "images/AHS Hazaribaug/DSC06691.jpg",
         "alt": "AHS Hazaribaug Campus Pathway"
       },
       {
-        "url": "images/AHS Hazaribaug/DSC06591.JPG",
+        "url": "images/AHS Hazaribaug/DSC06591.jpg",
         "alt": "AHS Hazaribaug Institutional Facade"
       }
     ],
