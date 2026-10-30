@@ -1069,6 +1069,7 @@
             src="${item.url}" 
             alt="${item.alt || project.title + ' Gallery ' + (index + 1)}" 
             class="w-full h-full object-cover"
+            style="${item.position ? `object-position: ${item.position};` : ''}"
           />
         </div>
       `).join('');

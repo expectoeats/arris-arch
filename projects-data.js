@@ -1,4 +1,4 @@
-﻿/**
+/**
  * ARRIS ARCHITECTS - Centralized Projects Database
  * Supports dynamic rendering on project-detail.html
  */
@@ -168,7 +168,8 @@ const ARRIS_PROJECTS = {
       },
       {
         "url": "images/Aldona Villa/4_5.jpg",
-        "alt": "Aldona Villa Architecture & Landscape"
+        "alt": "Aldona Villa Architecture & Landscape",
+        "position": "left center"
       },
       {
         "url": "images/Aldona Villa/10 FINAL_2.jpg",
