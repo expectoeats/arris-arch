@@ -18,7 +18,7 @@ const ARRIS_PROJECTS = {
       location: 'Thane',
       scope: 'Cinema, Interiors',
       siteArea: '5 screens, 953 seats',
-      status: 'Completed',
+      status: '2026',
     },
     gallery: [
       {
@@ -65,7 +65,7 @@ const ARRIS_PROJECTS = {
       location: 'Surat',
       scope: 'Commercial, Interiors, Landscape, F&B',
       siteArea: '1,32,720, sq.ft',
-      status: 'Completed',
+      status: '2026',
     },
     gallery: [
       {
@@ -112,7 +112,7 @@ const ARRIS_PROJECTS = {
       location: 'Hazaribaug',
       scope: 'Architecture, School, Interiors',
       siteArea: '1,16,975 sq.ft',
-      status: 'Completed',
+      status: '2026',
     },
     gallery: [
       {
@@ -207,7 +207,7 @@ const ARRIS_PROJECTS = {
       location: 'Mumbai',
       scope: 'Commercial, Interiors',
       siteArea: '9800 sq.ft',
-      status: 'Completed',
+      status: '2019',
     },
     gallery: [
       {
@@ -254,7 +254,7 @@ const ARRIS_PROJECTS = {
       location: 'Ahmedabad',
       scope: 'Cinema, Interiors',
       siteArea: '4 screens, 719 seats',
-      status: 'Completed',
+      status: '2022',
     },
     gallery: [
       {
@@ -301,7 +301,7 @@ const ARRIS_PROJECTS = {
       location: 'Gurugram',
       scope: 'Architecture, School, Interiors',
       siteArea: '15,500 sq.ft',
-      status: 'Completed',
+      status: '2020',
     },
     gallery: [
       {
@@ -396,7 +396,7 @@ const ARRIS_PROJECTS = {
       location: 'Trichy',
       scope: 'Cinema, Interiors',
       siteArea: '6 screens, 1530 seats',
-      status: 'Completed',
+      status: '2026',
     },
     gallery: [
       {
@@ -443,7 +443,7 @@ const ARRIS_PROJECTS = {
       location: 'Raipur, Chhattisgarh',
       scope: 'Architecture, Residential, Interiors',
       siteArea: '4000 sq.ft',
-      status: 'Completed',
+      status: '2025',
     },
     gallery: [
       {
@@ -537,7 +537,7 @@ const ARRIS_PROJECTS = {
       location: 'Gurugram',
       scope: 'Cinema, Interiors',
       siteArea: '5 screens, 889 seats',
-      status: 'Completed',
+      status: '2024',
     },
     gallery: [
       {
@@ -584,7 +584,7 @@ const ARRIS_PROJECTS = {
       location: 'Surat',
       scope: 'Architecture, Commercial, Cinema, Interiors',
       siteArea: '3,00,000 sq.ft',
-      status: 'Completed',
+      status: '2024',
     },
     gallery: [
       {
